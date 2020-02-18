@@ -1,0 +1,47 @@
+:host {
+    display: block;
+    height: 100vh;
+  
+  }
+
+
+  .wrapperImg{
+    width: 100px;
+    height: 400px;
+    display: flex;
+    display: grid;
+  
+  
+
+  }
+  .foto{
+  
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 55px;
+    clip-path: circle(38%);
+-webkit-box-align: center;
+    
+    
+
+  }
+  
+   .text{
+   height: auto;
+   margin-top: -20%;
+   padding: 10%;
+   font-weight: normal;
+   font-size: 21px;
+   line-height: 26px;
+   color: #FFFFFF;
+   }
+ 
+  
+.content{
+text-align: center;
+  
+  color: #FFFFFF;
+  margin-top: -100px;
+}
+

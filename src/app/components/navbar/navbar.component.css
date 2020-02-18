@@ -1,0 +1,34 @@
+    .navBar {
+
+    display: flex;
+    justify-content: flex-end;
+    color:  rgb(236, 232, 232);
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    align-self: center;
+    align-items: center;
+  }
+
+  a{
+    text-decoration: none;
+    color:  rgb(236, 232, 232);
+  }
+  
+  .navBar ul {
+    display: flex;
+    flex-direction: row;
+    color:  rgb(236, 232, 232);
+  }
+  
+  .navBar ul li {
+    
+    text-transform: uppercase;
+    color:  rgb(236, 232, 232);
+    font-size: 18px;
+    margin: 30px;
+    list-style: none;
+    align-items: center; 
+    justify-content: center;
+  }
+  

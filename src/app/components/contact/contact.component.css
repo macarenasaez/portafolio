@@ -1,0 +1,25 @@
+
+:host {
+    display: block;
+    height: 100vh;
+    background: linear-gradient(50deg,#4a7ff7,#f52fcf);
+  }
+  
+  
+  
+  img{
+    margin: 100px;
+    width: 100px;
+    height: 100px;
+    padding:30px;
+    
+    
+  }
+  .contactInfo{
+    font-size: 30px;
+  line-height: 49px;
+  text-align: center;
+  margin: 20px;
+  color:  rgb(236, 232, 232);
+
+  }

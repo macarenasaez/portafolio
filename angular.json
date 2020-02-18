@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "myBriefcase": {
+    "miportafolio": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/myBriefcase",
+            "outputPath": "dist/miportafolio",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -63,18 +63,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "myBriefcase:build"
+            "browserTarget": "miportafolio:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "myBriefcase:build:production"
+              "browserTarget": "miportafolio:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "myBriefcase:build"
+            "browserTarget": "miportafolio:build"
           }
         },
         "test": {
@@ -90,6 +90,7 @@
             ],
             "styles": [
               "src/styles.css"
+             
             ],
             "scripts": []
           }
@@ -111,15 +112,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "myBriefcase:serve"
+            "devServerTarget": "miportafolio:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "myBriefcase:serve:production"
+              "devServerTarget": "miportafolio:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "myBriefcase"
+  "defaultProject": "miportafolio"
 }

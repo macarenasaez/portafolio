@@ -1,0 +1,39 @@
+:host {
+    display: block;
+    height: 100vh;
+    background: linear-gradient(50deg,#4a7ff7,#f52fcf);
+  }
+  .project{
+  width: 900px;
+	height:100px;
+  padding:50px;
+       
+ 
+  }
+.projec{
+
+  margin: auto;
+  display: inline-block;
+  margin: 0.7%;
+  vertical-align: top;
+  width: 31.9%;
+}
+ 
+  .foto{
+  
+   max-width: 100%;
+    
+  
+  }
+
+  .git{
+   margin: 180px;
+   width: 100px; 
+  
+  }
+  .project h4{
+    color: #ffff;
+  }
+  .project p{
+    color: #ffff;  
+  }
