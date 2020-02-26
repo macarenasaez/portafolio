@@ -1,34 +1,33 @@
-:host {
-    display: block;
-    height: 100vh;
-    background: linear-gradient(50deg,#4a7ff7,#f52fcf);
-  }
+
  
   .skillsContainer{
   margin: auto;
   display: flex;
   align-content: center;
   width: 1200px;
-
-
   }
  
 .skillset {
-  width: 300%;
-	height: 300px;
-  padding:100px;
-    
+  width: 100%;
+	height: 50px;
+  padding:100px;  
   } 
   .t{
-    text-align: center;
-    margin: 50px;
-    color:  rgb(236, 232, 232);
+
+  position: absolute;
+  height: auto;
+   font-weight: normal;
+   font-size: 20px;   
+  color:  rgb(236, 232, 232);
   } 
 
   .logos{
     width: 80px;
     height: 80px;
     padding: 30px;
+    
+  }
+  @media screen and (min-width:992px) and (max-width:1200px){
     
   }
  

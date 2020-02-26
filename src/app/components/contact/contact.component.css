@@ -1,11 +1,10 @@
 
-:host {
-    display: block;
-    height: 100vh;
-    background: linear-gradient(50deg,#4a7ff7,#f52fcf);
+
+  
+  .contact{
+    display: flex;
+    justify-content: center;
   }
-  
-  
   
   img{
     margin: 100px;
@@ -16,10 +15,14 @@
     
   }
   .contactInfo{
-    font-size: 30px;
+  font-size: 30px;
   line-height: 49px;
   text-align: center;
   margin: 20px;
   color:  rgb(236, 232, 232);
 
+  }
+
+  @media screen and (min-width:992px) and (max-width:1200px){
+    
   }

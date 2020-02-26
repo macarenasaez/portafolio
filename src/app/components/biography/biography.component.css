@@ -1,47 +1,46 @@
-:host {
-    display: block;
-    height: 100vh;
-  
-  }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+.container-bio{
 
+  display: flex;
+  align-items: center;
+}
   .wrapperImg{
-    width: 100px;
-    height: 400px;
-    display: flex;
+    
+    width: 300px;
+    height: 300px;
     display: grid;
-  
-  
+    align-content: flex-end;
+    padding: 50px;
 
   }
   .foto{
-  
-    width: 300px;
+    
+    width: 400px;
     height: auto;
     display: block;
-    margin: 55px;
+    margin: 0 auto;
     clip-path: circle(38%);
 -webkit-box-align: center;
-    
-    
 
   }
   
-   .text{
-   height: auto;
-   margin-top: -20%;
-   padding: 10%;
+.content{
+
+margin-left: 400px;
+  position: absolute;
+  height: auto;
    font-weight: normal;
    font-size: 21px;
-   line-height: 26px;
    color: #FFFFFF;
-   }
- 
+   
   
-.content{
-text-align: center;
   
-  color: #FFFFFF;
-  margin-top: -100px;
 }
 
+@media screen and (min-width:992px) and (max-width:1200px){
+  
+}

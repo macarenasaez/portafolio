@@ -2,9 +2,11 @@
     margin: 0;
     padding: 0;
 }
-.navBar{
 
-}
 body{
     background: linear-gradient(50deg,#4a7ff7,#f52fcf);
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
 }
+
