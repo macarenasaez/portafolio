@@ -2,17 +2,24 @@
 
   
   .contact{
+  
     display: flex;
+    width: 80%;
+    margin: 100px auto 0 auto;
     justify-content: center;
   }
   
-  img{
+  .imgL{
     margin: 100px;
     width: 100px;
-    height: 100px;
-    padding:30px;
+    margin: 0 20px;
+    padding:0;
     
     
+  }
+  a{
+    
+    width: 200px;
   }
   .contactInfo{
   font-size: 30px;
