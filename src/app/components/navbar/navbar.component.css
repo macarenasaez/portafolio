@@ -33,7 +33,7 @@
 
 
 
-  
+  /*grande*/
   @media screen and (min-width:992px) and (max-width:1200px){
     .nav {
       display: block;
@@ -64,28 +64,11 @@
   
 
   }
+  /*mediano*/
   @media screen and (min-width:510px) and (max-width:723px){
+   
 
-    .navBar {
-
-      display: flex;
-      justify-content: flex-end;
-      width: 100%;
-      height: 50px;
-      align-self: center;
-      align-items: center;
-    }
-  
-    a{
-      text-decoration: none;
-      
-    }
     
-    .navBar ul {
-      display: flex;
-      flex-direction: row;
-    
-    }
     
     .navBar ul li {
       
@@ -99,25 +82,26 @@
     }
   
   }
+  /*pequeño*/
   @media screen and (min-width:230px) and (max-width:509px){
   
+   
   
     a{
       text-decoration: none;      
     }
     
     .navBar ul {
+      
       display: flex;
       flex-direction: row;    
     }
     
     .navBar ul li {
       text-transform: uppercase;
-      font-size: 11px;
-      margin: 15px;
+      font-size: 9px;
+      margin: 10px;
       list-style: none;
-      align-items: center; 
-      justify-content: center;
      
     }
   
