@@ -5,13 +5,14 @@
 
 body{
     background: linear-gradient(50deg,#4a7ff7,#f52fcf);
-    /* width: 100vw;
-    height: 100vh; */
+    width: 100vw;
+     width: 100vw;
+    height: 100vh;
+    height: 100vh; 
     overflow-x: hidden;
-    background-repeat: no-repeat;
+    overflow-x: hidden;
 
 background-size: cover;
-
 background-origin: content-box;
 }
 

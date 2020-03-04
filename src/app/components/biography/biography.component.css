@@ -5,9 +5,11 @@
 }
 .container-bio{
   display: flex;
+  justify-content: center;
   flex-direction: row;
   width: 100vw;
   align-items: center;
+
 }
   .wrapperImg{
     
@@ -38,14 +40,10 @@
   
   
 }
-/*pantalla grande*/
-@media screen and (min-width:992px) and (max-width:1200px){
+
 
  
- 
 
- 
-}
 /*mediana*/
 /* @media screen and (min-width:321px) and (max-width:430px){}
 .content{

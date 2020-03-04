@@ -2,31 +2,46 @@
    
   
   .project{
-  width: 900px;
-	height:100px;
-  padding:50px;
-  
+  /*width: 900px;
+	height:100px;*/
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 30px;
+ 
+   
+ 
   }
+  .projects-container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-self: center;
+    align-items: center;
+  }
+  
   h1{
-
+    width: 100%;
     text-align-last: center;
     color: #ffff;
+    margin-bottom: 10px;
   }
 .projec{
 
  box-sizing: border-box;
- float: left;
+ /*float: left;*/
  margin: 0.5%;
  padding: 1em;
- width: 32.33%;
+ /*width: 32.33%;*/
+ 
  
  
 }
 
   .foto{
-  
-   max-width: 100%;
-    
+width: 300px;
+height: 300px;
   
   }
   .project h4{
@@ -43,17 +58,50 @@
     justify-self: flex-end;
   
   }
-
-   /*responsive grande*/
-   @media screen and (min-width:992px) and (max-width:1200px){
+@media screen and (max-width: 1010px){
+  .project{
+    display: flex;
+    flex-direction: column;
     
-  }
-     
+    
+    }
+    .projec {
+      padding: 1em;
+      width: 100%;
+      margin-bottom: 15px;
+    }
+    .projec p {
+      padding: 5px 80px;
+    }
+    .projects-container {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .foto {
+      width: 80%;
+      height: auto;
+    }
+    
+}
 
  /*mediano*/
- @media screen and (min-width:510px) and (max-width:723px){}
+ @media screen and (min-width:510px) and (max-width:723px){
+ .project{
+display: flex;
+flex-direction: column;
 
-
+}
+.projec {
+  padding: 1em;
+  width: 100%;
+}
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+ }
   /*pequeña*/
   @media screen and (min-width:230px) and (max-width:509px){
     .project{
@@ -62,19 +110,25 @@
     padding:5px;
     display: flex;
     flex-direction: column;
+    
+    }
+    .projects-container{
+      display: flex;
+      flex-direction: column;
     }
 
   h1{
     text-transform: uppercase;
     font-size: 15px;
-    position: absolute;
+   /* position: absolute;*/
   
   }
   p{ 
     text-transform: uppercase;
     font-size: 10px;
-    width: 100%;
     height: auto;
+      padding: 5px 20px;
+    
     
 
   }
